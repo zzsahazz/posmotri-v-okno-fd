@@ -1,0 +1,30 @@
+:where(
+  .search-form__textfield,
+  .search-form__checkbox,
+  .search-form__submit-button,
+  .content__list-item,
+  .more-button
+):focus {
+  outline: none;
+}
+
+:where(
+  .search-form__textfield,
+  .search-form__checkbox,
+  .search-form__submit-button,
+  .content__list-item,
+  .more-button
+):focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  inline-size: 1px;
+  block-size: 1px;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

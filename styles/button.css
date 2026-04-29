@@ -1,0 +1,40 @@
+.button{
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.search-form__submit-button{
+  display: block;
+  align-self: flex-end;
+  width: 194px;
+  padding-block: 5px;
+  cursor: pointer;
+}
+
+.search-form__submit-button:hover{
+  text-decoration: underline;
+}
+
+.search-form__submit-button:active { 
+  background-color: #545050;  
+}
+
+.more-button{
+  box-sizing: border-box;
+  width: 100%;
+  padding-block: 5px;
+  cursor: pointer;
+}
+
+.more-button:hover{
+  text-decoration: underline;
+}
+
+.more-button:active { 
+  background-color: #545050;  
+}
