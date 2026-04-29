@@ -9,7 +9,6 @@
 }
 
 .search-form__submit-button{
-  display: block;
   align-self: flex-end;
   width: 194px;
   padding-block: 5px;
@@ -25,7 +24,6 @@
 }
 
 .more-button{
-  box-sizing: border-box;
   width: 100%;
   padding-block: 5px;
   cursor: pointer;

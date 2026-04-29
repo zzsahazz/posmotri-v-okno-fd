@@ -13,12 +13,12 @@
 
 .content__card-link{
   display: block;
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
 
-.content__card-link:hover {
+.content__card-link:hover{
   text-decoration: underline; 
   text-underline-offset: 6px; 
 }
@@ -46,7 +46,7 @@
   min-height: 35px;
   margin-bottom: 6px;
   overflow: hidden;
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
@@ -62,10 +62,11 @@
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 16,2px;
+  line-height: 16.2px;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
+
 
 .content__video-card-thumbnail{
   min-width: 194px;
