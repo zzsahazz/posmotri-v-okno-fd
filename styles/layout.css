@@ -13,13 +13,14 @@
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .result__video{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__details{
