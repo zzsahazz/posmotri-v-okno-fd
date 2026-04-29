@@ -6,8 +6,8 @@
 
 .search-form__fieldset{
   display: grid;
-  border: none;
   gap: 5px;
+  border: none;
 }
 
 .search-form__fieldset-title{
@@ -15,7 +15,7 @@
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 16px;
 }
 
 .search-form__label{
@@ -23,6 +23,10 @@
   align-items: center;
   gap: 5px;
   width: fit-content;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.6px;
   cursor: pointer;
 }
 
@@ -31,9 +35,13 @@
   border-right: none;
   border-left: none;
   color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;  
+  line-height: 21.6px;
   background-color: transparent;
   appearance: none;
-  font-size: 18px;
+  inline-size: 225px;
 }
 
 .search-form__textfield::placeholder{

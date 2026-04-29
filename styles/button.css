@@ -4,8 +4,17 @@
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 22px;
   text-align: center;
   background-color: transparent;
+}
+
+.button:hover{
+  text-decoration: underline;
+}
+
+.button:active { 
+  background-color: #545050;  
 }
 
 .search-form__submit-button{
@@ -15,24 +24,8 @@
   cursor: pointer;
 }
 
-.search-form__submit-button:hover{
-  text-decoration: underline;
-}
-
-.search-form__submit-button:active { 
-  background-color: #545050;  
-}
-
 .more-button{
   width: 100%;
   padding-block: 5px;
   cursor: pointer;
-}
-
-.more-button:hover{
-  text-decoration: underline;
-}
-
-.more-button:active { 
-  background-color: #545050;  
 }

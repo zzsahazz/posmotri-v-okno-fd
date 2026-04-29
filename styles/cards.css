@@ -1,9 +1,9 @@
 .title{
-  margin-bottom: 26px;
+  margin-bottom: 15px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
-  line-height: 70.5px;
+  line-height: 73px;
   text-transform: uppercase;
 }
 
@@ -20,7 +20,6 @@
 
 .content__card-link:hover{
   text-decoration: underline; 
-  text-underline-offset: 6px; 
 }
 
 .content__card-link_current{
@@ -43,28 +42,25 @@
 }
 
 .content__video-card-title{
-  min-height: 35px;
   margin-bottom: 6px;
   overflow: hidden;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
+  text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
-  text-transform: uppercase;
 }
 
 .content__video-card-description{
-  display: -webkit-box;
-  min-height: 21px;
   overflow: hidden;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 
